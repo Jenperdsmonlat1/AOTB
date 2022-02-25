@@ -100,7 +100,7 @@ class FullScanController {
         listFiles = analyzer.enumFile()
         val md5 = MD5Get()
         val digest: MessageDigest = MessageDigest.getInstance("MD5")
-        val db = readFileLinePerLine("D:\\AOTB_V2\\hashs.txt")
+        val db = readFileLinePerLine("")
     }
 
     public fun readFileLinePerLine(fileName: String): List<String> = File(fileName).readLines()
