@@ -104,7 +104,7 @@ class HelloController {
             val md5 = MD5Get()
             val hash: String = md5.checksum(digest, file)
             println(hash)
-            val db = readFileLinePerLine("D:\\AOTB_V2\\hashs.txt")
+            val db = readFileLinePerLine("")
             for (hashs in db) {
 
                 println(hashs)
