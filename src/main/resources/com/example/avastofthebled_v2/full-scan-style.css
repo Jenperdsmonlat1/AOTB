@@ -1,0 +1,42 @@
+.root {
+	-fx-background-color: #00181e;
+}
+
+.minimizeButton {
+	-fx-background-color: rgb(84, 255, 117);
+	-fx-background-radius: 15px;
+}
+
+.maximizeButton {
+	-fx-background-color: rgb(255, 152, 55);
+	-fx-background-radius: 15px;
+}
+
+.exitButton {
+	-fx-background-color: rgb(255, 55, 55);
+	-fx-background-radius: 15px;
+}
+
+.labelScan {
+	-fx-text-fill: white;
+	-fx-font-size: 16px;
+}
+
+.btnSidebar {
+	-fx-background-color: #00232b;
+	-fx-background-radius: 10px;
+	-fx-text-fill: white;
+}
+
+.btnStart {
+	-fx-background-color: linear-gradient(to right, #00C9FF, #92FE9D);
+	-fx-background-radius: 25px;
+}
+
+.scroll-pane {
+	-fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+	-fx-background-color: transparent;
+}

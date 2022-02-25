@@ -1,0 +1,48 @@
+.root {
+	-fx-background-color: #00181e;
+}
+
+.minimizeButton {
+	-fx-background-color: rgb(84, 255, 117);
+	-fx-background-radius: 15px;
+}
+
+.maximizeButton {
+	-fx-background-color: rgb(255, 152, 55);
+	-fx-background-radius: 15px;
+}
+
+.exitButton {
+	-fx-background-color: rgb(255, 55, 55);
+	-fx-background-radius: 15px;
+}
+
+.btnSidebar {
+	-fx-background-color: #00232b;
+	-fx-background-radius: 10px;
+	-fx-text-fill: white;
+}
+
+.labelScanFile {
+	-fx-text-fill: white;
+	-fx-font-size: 22px;
+	-fx-font-family: Noto Sans;
+}
+
+.inputFile {
+	-fx-background-color: transparent;
+	-fx-border-color: #00C9FF;
+	-fx-border-width: 1px;
+	-fx-border-radius: 25px;
+	-fx-text-fill: white;
+}
+
+.btnValid {
+	-fx-background-color: linear-gradient(to right, #00C9FF, #92FE9D);
+	-fx-background-radius: 25px;
+}
+
+.labelScan {
+	-fx-text-fill: white;
+	-fx-font-size: 16px;
+}
